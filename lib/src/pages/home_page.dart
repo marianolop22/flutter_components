@@ -20,24 +20,15 @@ class HomePage extends StatelessWidget {
       
   Widget _list() {
 
-
     return FutureBuilder (
-
       future: menuProvider.loadData(),
+      initialData: [],
       builder: (BuildContext context, AsyncSnapshot snapshopt) {
-
         return ListView(
           children: _listItems( snapshopt.data ),
         );
-
       },
-
-
-    );
-
-
-
-          
+    ); 
   }
       
 
