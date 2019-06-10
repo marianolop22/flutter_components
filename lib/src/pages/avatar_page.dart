@@ -4,6 +4,8 @@ import 'package:flutter/widgets.dart';
 class AvatarPage extends StatelessWidget {
   //const AlertPage({Key key}) : super(key: key);
 
+  static final pageName = 'avatar';
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
